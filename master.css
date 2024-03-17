@@ -1,0 +1,194 @@
+@media only screen and (max-width: 650px) {
+    body {
+        margin: 0;
+
+    }
+
+    main {
+        width: 100%;
+
+    }
+
+    header {
+        height: 10em;
+    }
+
+    nav {}
+
+    .topNav a:not(:nth-child(6n)) {
+        display: none;
+        text-align: left;
+        padding-left: .5em;
+
+    }
+
+    .topNav a.icon {
+        display: block;
+        float: right;
+        width: 2em;
+    }
+
+    .topNav.responsive {
+        position: relative;
+    }
+
+    .topNav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 6.7em;
+        width: 2em;
+    }
+
+    .topNav.responsive a {
+        display: block;
+        float: none;
+        width: 100%;
+    }
+
+
+    section {
+        min-height: 8em;
+    }
+
+
+    footer {
+        min-height: 6em;
+    }
+
+}
+
+@media only screen and (min-width: 651px) {
+    body {
+        margin: 0;
+
+    }
+
+    main {
+        width: 80%;
+        margin: 0 auto;
+
+    }
+
+    header {
+        height: 10em;
+    }
+
+    nav {}
+
+    section {
+        min-height: 8em;
+    }
+
+    aside {
+        width: 30%;
+        float: left;
+    }
+
+
+}
+
+
+body {
+    font-family: "Open Sens", sans-serif;
+    background-color: black;
+    background-image: url(images/pexels-dave-morgan-2643596.jpg);
+    background-size: cover;
+}
+
+main {
+    background-color: rgb(51, 9, 9);
+    color: rgb(247, 35, 35);
+    height: 80%;
+    width: 80%;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-left: auto;
+    border: 10px solid rgb(94, 16, 16);
+    background-image: url(images/pexels-łukasz-martenka-3207527.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    background-color: rgb(94, 16, 16);
+    height: 10em;
+    width: 50%;
+    text-align: center;
+    padding-top: 1.5em;
+    border: 20px solid rgb(172, 5, 5);
+    border-radius: 0 100px 0 100px;
+    box-shadow: 10px 10px 8px 5px rgb(58, 7, 7);
+    color: rgb(245, 7, 7);
+
+}
+
+header h1 {
+    font-size: 3em;
+}
+
+.topNav {
+    background-color: rgb(94, 16, 16);
+    overflow: hidden;
+    font-size: 1.5em;
+}
+
+.topNav a {
+    display: block;
+    width: 23%;
+    float: left;
+    color: rgb(245, 7, 7) ;
+    padding: .5%;
+    text-decoration: none;
+    text-align: center;
+}
+
+.topNav a:hover {
+    background-color:rgb(54, 10, 10) ;
+}
+
+.topNav .icon {
+    display: none;
+}
+
+img {
+    height: 300px;
+    text-align: center;
+}
+
+figcaption span {
+    font-size: .85em;
+}
+
+figure.overview{
+    background-color:rgb(63, 10, 10) ;
+    padding: 2em;
+
+}
+
+p#product-description {
+    margin: 20px 0 20px 0;
+    text-align: justify;
+    text-indent: 2em;
+}
+
+main h2{
+    background-color: rgb(94, 16, 16);
+    height: 3em;
+    text-align: center;
+    font-size: 2em;
+    padding-top: 1.5em;
+    border: 10px solid rgb(172, 5, 5);
+    margin: 40px 200px 40px 200px;
+}
+
+div.review {
+    color: rgb(245, 7, 7);
+    padding: 10px;
+    background-color: rgb(63, 10, 10);
+    margin: 20px 0 20px 0;
+    text-indent: 2em;
+}
+
+
+
